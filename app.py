@@ -7,5 +7,6 @@ def salida(text:str):
         st.write(x)
 
 
+respuesta = st.text_input("Escribe cualquier cosa.")
 if st.button("Enviar"):
     salida("hola mundo")
