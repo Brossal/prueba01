@@ -1,4 +1,11 @@
 import streamlit as st 
 
 
-st.write('hola mundo')
+def salida(text:str):
+    lista = text.split(" ")
+    for x in lista:
+        st.write(x)
+
+
+if st.button("Enviar"):
+    salida("hola mundo")
