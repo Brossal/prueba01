@@ -9,4 +9,4 @@ def salida(text:str):
 
 respuesta = st.text_input("Escribe cualquier cosa.")
 if st.button("Enviar"):
-    salida("hola mundo")
+    salida(respuesta)
