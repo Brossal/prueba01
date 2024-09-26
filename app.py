@@ -10,3 +10,6 @@ def salida(text:str):
 respuesta = st.text_input("Escribe cualquier cosa.")
 if st.button("Enviar"):
     salida(respuesta)
+
+
+data = st.upload_file("cargar")
