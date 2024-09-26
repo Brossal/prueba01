@@ -12,4 +12,4 @@ if st.button("Enviar"):
     salida(respuesta)
 
 
-data = st.uploaded_file("cargar")
+data = st.file_uploader("cargar")
